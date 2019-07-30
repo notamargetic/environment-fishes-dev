@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAJZB+iDnepM4yYQdj05i+RYwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkYjAxMWVmY2MtYWMzZS00MmRlLWI5ZDctNGQ4YWZlMTRlZWM4
+    MB4XDTE5MDczMDE4MjQ1N1oXDTI0MDcyODE5MjQ1N1owLzEtMCsGA1UEAxMkYjAx
+    MWVmY2MtYWMzZS00MmRlLWI5ZDctNGQ4YWZlMTRlZWM4MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAsyyL1G5caN+BccqQXpOX+up4llW38aPyBi1+4AI2
+    SAHJTzjUANLQhvf3hl1aQ03ug2olu+Oncbi6LKyZsnjW4jcVCxZZfaJziZgqxvf+
+    jjH4K/gnlbm+Scm1Zp3dcAx+wrCDuDNcD1M2Y1YImhqjXVtkx6SBs7/BUxMor/5a
+    594tmul0D4CDZYk8cC5AjD+3ETHBjSqEH21w3yerGknNYc/EQssYa/JY33sCyvSy
+    yCbsBjIS6fIXeSy8Z9xJiNitzZPNl9jEUwGzejUX6tpAv2rICCyiEOUHLd4MZCoE
+    G2iAhapnaocrCu3ZYWMsQxS9IG4Icgl0+57xYG9ReqaO1QIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    Hra/TdRE4egveQOhm+lzjoZ6YJVNAPiMvgeRGf6Clh+OVvn4JUhvu3GE0+KfWW27
+    LCa+PiRb3C3z7FGWr1iXH1WnzdVo3XjIaQgoh+xhY1ajPsMtDTMGbs7HmJ28dxZD
+    dNQ8qercdgMPzT6+yoWvdOSDLmgRR799AOZIHymCAkch69pNYAk9YhQusUznzf/u
+    FHd8kcjYZ/i2A/TdvLy2BKKIPZTtmzhMPQY8Kx19tIYpYa+B95DXkOkvZhU+YBp1
+    S3mHUbzy4a8aMaw7v1xVhFsOddJy2HeZqwnoOVa/+l8Fq7NBrkK/EvVRwGn6XqZm
+    3QKIvu8ix3TC4g5bwu7Pxw==
+    -----END CERTIFICATE-----
+  clusterName: fishes
+  jx-install-version: 2.0.521
+  kubeProvider: gke
+  projectID: clean-216914
+  region: ""
+  secretsLocation: vault
+  server: https://35.227.75.110
+  systemVaultName: jx-vault-fishes
+  zone: us-east1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
